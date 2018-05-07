@@ -1,0 +1,4 @@
+index.php file tests the functionality of application. In order to use this application in your project add 3 classes PageScrapper.php, Result.php and ResultList.php and instantiate PageScrapper.php class.
+Now call scrap_page()with following arguments ($url, $categorey); This function will return ResultList Object polpulated with results extracted from the page of URL belonging to the category provided with.Call getJson function for ResultList object which will return result in required format.
+
+
